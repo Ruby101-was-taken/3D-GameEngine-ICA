@@ -3,32 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|c:\\users\\ruby_\\desktop\\college\\year three\\3d game\\ica\\3d-gameengine-ica\\ica\\assets\\rubschoolhouse\\scripts\\events\\transformgameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\events\\transformgameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|c:\\users\\ruby_\\desktop\\college\\year three\\3d game\\ica\\3d-gameengine-ica\\ica\\assets\\rubschoolhouse\\scripts\\item\\itemget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\item\\itemget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|c:\\users\\ruby_\\desktop\\college\\year three\\3d game\\ica\\3d-gameengine-ica\\ica\\assets\\rubschoolhouse\\scripts\\events\\vector3gameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\events\\vector3gameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|c:\\users\\ruby_\\desktop\\college\\year three\\3d game\\ica\\3d-gameengine-ica\\ica\\assets\\rubschoolhouse\\scripts\\events\\itempickup\\itempickupgameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\events\\itempickup\\itempickupgameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|c:\\users\\ruby_\\desktop\\college\\year three\\3d game\\ica\\3d-gameengine-ica\\ica\\assets\\rubschoolhouse\\scripts\\events\\transformgameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\events\\transformgameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\assets\\rubschoolhouse\\scripts\\events\\itempickup\\itempickupgameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\events\\itempickup\\itempickupgameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|c:\\users\\ruby_\\desktop\\college\\year three\\3d game\\ica\\3d-gameengine-ica\\ica\\assets\\gd\\common\\scripts\\patterns\\events\\multi-parameter\\base\\basegameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\assets\\rubschoolhouse\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\assets\\rubschoolhouse\\scripts\\controllers\\character\\characternavigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\controllers\\character\\characternavigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\assets\\rubschoolhouse\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\assets\\gd\\common\\scripts\\inventory\\inventorycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\gd\\common\\scripts\\inventory\\inventorycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\assets\\gd\\common\\scripts\\patterns\\events\\zero-parameter\\gameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\gd\\common\\scripts\\patterns\\events\\zero-parameter\\gameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\assets\\rubschoolhouse\\scripts\\camera\\cameraswitcherbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\camera\\cameraswitcherbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\assets\\gd\\common\\scripts\\patterns\\events\\multi-parameter\\base\\basegameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\gd\\common\\scripts\\patterns\\events\\multi-parameter\\base\\basegameeventlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|c:\\users\\ruby_\\desktop\\college\\year three\\3d game\\ica\\3d-gameengine-ica\\ica\\assets\\rubschoolhouse\\scripts\\events\\vector3gameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\events\\vector3gameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|c:\\users\\ruby_\\desktop\\college\\year three\\3d game\\ica\\3d-gameengine-ica\\ica\\assets\\gd\\common\\scripts\\patterns\\events\\multi-parameter\\base\\basegameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\assets\\gd\\common\\scripts\\patterns\\events\\multi-parameter\\base\\basegameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\gd\\common\\scripts\\patterns\\events\\multi-parameter\\base\\basegameevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|c:\\users\\ruby_\\desktop\\college\\year three\\3d game\\ica\\3d-gameengine-ica\\ica\\assets\\rubschoolhouse\\scripts\\controllers\\character\\characternavigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10AB79A5-E23B-B6B6-4236-97B5047472D5}|Assembly-CSharp.csproj|solutionrelative:assets\\rubschoolhouse\\scripts\\controllers\\character\\characternavigationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\TransformGameEventListener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RubSchoolHouse\\Scripts\\Events\\TransformGameEventListener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\TransformGameEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RubSchoolHouse\\Scripts\\Events\\TransformGameEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\Vector3GameEventListener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RubSchoolHouse\\Scripts\\Events\\Vector3GameEventListener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\Vector3GameEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RubSchoolHouse\\Scripts\\Events\\Vector3GameEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,6 +75,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ItemGet.cs",
+              "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Item\\ItemGet.cs",
+              "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Item\\ItemGet.cs",
+              "ToolTip": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Item\\ItemGet.cs",
+              "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Item\\ItemGet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T16:28:30.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemPickupGameEventListener.cs",
+              "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\ItemPickup\\ItemPickupGameEventListener.cs",
+              "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Events\\ItemPickup\\ItemPickupGameEventListener.cs",
+              "ToolTip": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\ItemPickup\\ItemPickupGameEventListener.cs",
+              "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Events\\ItemPickup\\ItemPickupGameEventListener.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T16:25:10.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemPickupGameEvent.cs",
+              "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\ItemPickup\\ItemPickupGameEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Events\\ItemPickup\\ItemPickupGameEvent.cs",
+              "ToolTip": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\ItemPickup\\ItemPickupGameEvent.cs",
+              "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Events\\ItemPickup\\ItemPickupGameEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T16:25:09.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Inventory\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Inventory\\InventoryManager.cs",
+              "ToolTip": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Inventory\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Inventory\\InventoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T15:35:51.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryCollection.cs",
+              "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\GD\\Common\\Scripts\\Inventory\\InventoryCollection.cs",
+              "RelativeDocumentMoniker": "Assets\\GD\\Common\\Scripts\\Inventory\\InventoryCollection.cs",
+              "ToolTip": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\GD\\Common\\Scripts\\Inventory\\InventoryCollection.cs",
+              "RelativeToolTip": "Assets\\GD\\Common\\Scripts\\Inventory\\InventoryCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T15:18:15.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameEventListener.cs",
+              "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\GD\\Common\\Scripts\\Patterns\\Events\\Zero-parameter\\GameEventListener.cs",
+              "RelativeDocumentMoniker": "Assets\\GD\\Common\\Scripts\\Patterns\\Events\\Zero-parameter\\GameEventListener.cs",
+              "ToolTip": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\GD\\Common\\Scripts\\Patterns\\Events\\Zero-parameter\\GameEventListener.cs",
+              "RelativeToolTip": "Assets\\GD\\Common\\Scripts\\Patterns\\Events\\Zero-parameter\\GameEventListener.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T15:18:02.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CameraSwitcherBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Camera\\CameraSwitcherBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Camera\\CameraSwitcherBehaviour.cs",
+              "ToolTip": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Camera\\CameraSwitcherBehaviour.cs",
+              "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Camera\\CameraSwitcherBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:26:57.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "TransformGameEventListener.cs",
               "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\TransformGameEventListener.cs",
               "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Events\\TransformGameEventListener.cs",
@@ -50,12 +168,11 @@
               "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Events\\TransformGameEventListener.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:16:00.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T20:16:00.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Vector3GameEventListener.cs",
               "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\Vector3GameEventListener.cs",
               "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Events\\Vector3GameEventListener.cs",
@@ -63,12 +180,11 @@
               "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Events\\Vector3GameEventListener.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:15:56.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T20:15:56.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "TransformGameEvent.cs",
               "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\TransformGameEvent.cs",
               "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Events\\TransformGameEvent.cs",
@@ -76,12 +192,11 @@
               "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Events\\TransformGameEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:15:52.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T20:15:52.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "BaseGameEventListener.cs",
               "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\GD\\Common\\Scripts\\Patterns\\Events\\Multi-parameter\\Base\\BaseGameEventListener.cs",
               "RelativeDocumentMoniker": "Assets\\GD\\Common\\Scripts\\Patterns\\Events\\Multi-parameter\\Base\\BaseGameEventListener.cs",
@@ -89,12 +204,11 @@
               "RelativeToolTip": "Assets\\GD\\Common\\Scripts\\Patterns\\Events\\Multi-parameter\\Base\\BaseGameEventListener.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:15:35.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T20:15:35.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "BaseGameEvent.cs",
               "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\GD\\Common\\Scripts\\Patterns\\Events\\Multi-parameter\\Base\\BaseGameEvent.cs",
               "RelativeDocumentMoniker": "Assets\\GD\\Common\\Scripts\\Patterns\\Events\\Multi-parameter\\Base\\BaseGameEvent.cs",
@@ -102,12 +216,11 @@
               "RelativeToolTip": "Assets\\GD\\Common\\Scripts\\Patterns\\Events\\Multi-parameter\\Base\\BaseGameEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:15:32.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T20:15:32.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Vector3GameEvent.cs",
               "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Events\\Vector3GameEvent.cs",
               "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Events\\Vector3GameEvent.cs",
@@ -115,21 +228,31 @@
               "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Events\\Vector3GameEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:12:31.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T20:12:31.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "CharacterNavigationController.cs",
               "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Controllers\\Character\\CharacterNavigationController.cs",
               "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Controllers\\Character\\CharacterNavigationController.cs",
               "ToolTip": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Controllers\\Character\\CharacterNavigationController.cs",
               "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Controllers\\Character\\CharacterNavigationController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:12:23.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T20:12:23.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Inventory\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\RubSchoolHouse\\Scripts\\Inventory\\Inventory.cs",
+              "ToolTip": "C:\\Users\\ruby_\\Desktop\\college\\YEAR THREE\\3d game\\ICA\\3D-GameEngine-ICA\\ICA\\Assets\\RubSchoolHouse\\Scripts\\Inventory\\Inventory.cs",
+              "RelativeToolTip": "Assets\\RubSchoolHouse\\Scripts\\Inventory\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T15:50:31.688Z"
             }
           ]
         }

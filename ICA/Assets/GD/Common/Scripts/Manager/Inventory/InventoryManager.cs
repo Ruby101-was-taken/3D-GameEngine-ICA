@@ -21,6 +21,7 @@ namespace GD.Items
             //check if the inventory collection has been added
             if (inventoryCollection == null)
                 throw new NullReferenceException("No inventory collection has been added");
+            
         }
 
         /// <summary>
@@ -29,6 +30,7 @@ namespace GD.Items
         /// <param name="data"></param>
         public void OnInventoryAdd(ItemData data)
         {
+            Debug.Log("Test");
             inventoryCollection.Add(data);
         }
     }
