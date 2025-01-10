@@ -9,7 +9,13 @@ namespace RUB {
         [SerializeField]
         private Dictionary<ItemData, int> items = new Dictionary<ItemData, int>();
 
+        [SerializeField, ReadOnly]
+        private int slotsFilled = 0;
+
+        public int SlotsFilled { get => slotsFilled; set => slotsFilled = value; }
+
         public void Start() {
+            slotsFilled = 0;
             items.Clear();
         }
 
@@ -19,9 +25,11 @@ namespace RUB {
             }
             if(!items.ContainsKey(item)) {
                 items.Add(item, count);
+                slotsFilled++;
             }
             else {
                 items[item] += count;
+                slotsFilled++;
             }
         }
 
@@ -35,6 +43,7 @@ namespace RUB {
                 else if(items[item] == count) {
                     items.Remove(item);
                     itemRemoved = true;
+                    slotsFilled--;
                 }
             }
             return itemRemoved;

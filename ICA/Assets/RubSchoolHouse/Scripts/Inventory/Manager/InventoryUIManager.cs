@@ -1,4 +1,7 @@
+using DG.Tweening;
+using GD.Items;
 using GD.Pool;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace RUB {
@@ -9,13 +12,26 @@ namespace RUB {
         private RectTransform InventoryItem;
         [SerializeField]
         private int InventorySize;
+        [SerializeField]
+        private Transform InventoryUI;
 
-        private ObjectPool<RectTransform> InventoryPool;
+        [SerializeField, FoldoutGroup("Spacing")]
+        private int LeftSidePadding = 30;
+        [SerializeField, FoldoutGroup("Spacing")]
+        private int TopSidePadding = 30;
+        [SerializeField, FoldoutGroup("Spacing")]
+        private int Spacing = 30;
 
-        void Awake() {
-            InventoryPool = new ObjectPool<RectTransform>(InventoryItem, InventorySize);
+        private void Start() {
+            UpdatePosition();
+        }
+        private void UpdatePosition() {
+            InventoryItem.transform.position = new Vector3(LeftSidePadding + (Spacing * (Inventory.SlotsFilled)), -TopSidePadding);
+        }
+        public void AddItem(ItemPickup item) {
+            UpdatePosition();
+            Instantiate(InventoryItem, InventoryUI);
         }
 
-        
     }
 }

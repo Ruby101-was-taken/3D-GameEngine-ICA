@@ -5,7 +5,7 @@ using GD.Types;
 using Sirenix.OdinInspector;
 using System.Collections;
 
-namespace GD.Audio
+namespace GD.Audio 
 {
     /// <summary>
     /// AudioManager is a Singleton class that manages the audio in the game.
