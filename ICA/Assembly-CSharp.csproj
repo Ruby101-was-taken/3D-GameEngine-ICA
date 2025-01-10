@@ -78,6 +78,7 @@
     <Compile Include="Assets\RubSchoolHouse\Scripts\Item\ItemPickup.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\Toast\ToastManager.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Selection\Providers\IRayProvider.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\Inventory\Manager\InventoryUIManager.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Selection\Responses\Monobehaviours\AudioSelectionResponse.cs" />
     <Compile Include="Assets\GD\Examples\9. Events - Items &amp; CharacterController\Scripts\Player Performance\SimplePlayerPerformanceManager.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Gizmos\ArrowGizmo.cs" />
@@ -85,9 +86,12 @@
     <Compile Include="Assets\GD\Common\Scripts\Patterns\Singleton\Singleton.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Tweens\ScriptableObject\TweenSettings.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Attributes\AudioClipButtonAttribute.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\Item\ItemBehaviour.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\Inventory\Manager\InventoryManager.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\Task\ITask.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Controllers\Light\LightFlicker.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\FSM\Base\FSMAction.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\Item\Visuals\BillBoard.cs" />
     <Compile Include="Assets\GD\Exercises\3. StateManager - Conditions\Scripts\InventoryEquippableCondition.cs" />
     <Compile Include="Assets\GD\Examples\8. Events - Zero and Nonzero\Scripts\Events\HealthChangeSender.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Items\Interfaces\IConsumable.cs" />
@@ -122,7 +126,6 @@
     <Compile Include="Assets\GD\Common\Scripts\Patterns\FSM\Base\PredicateBase.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\FSM\Base\FSMState.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Events\ItemPickup\ItemPickupGameEvent.cs" />
-    <Compile Include="Assets\RubSchoolHouse\Scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Tweens\UI\UIFadeTween.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\Events\Multi-parameter\Types\Int\IntGameEventListener.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\State\Conditions\Examples\LayerCondition.cs" />
@@ -149,12 +152,13 @@
     <Compile Include="Assets\GD\Common\Scripts\Patterns\Events\Multi-parameter\Types\Int\IntGameEvent.cs" />
     <Compile Include="Assets\GD\Examples\16. Singletons - Toast and Audio\Scripts\TestAudioManager.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\State\StateManager.cs" />
-    <Compile Include="Assets\RubSchoolHouse\Scripts\Inventory\InventoryManager.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\Events\Multi-parameter\Base\BaseGameEvent.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\Inventory\ScriptableObject\Inventory.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Tweens\UI\UIBaseTween.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\State\Conditions\Base\ConditionBase.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Events\Vector3\Vector3GameEventListener.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\Item\Enum\QuestionCategories.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Events\Transform\TransformGameEvent.cs" />
     <Compile Include="Assets\GD\Examples\16. Singletons - Toast and Audio\Scripts\TestToastManager.cs" />
     <Compile Include="Assets\GD\Exercises\2. Using ScriptableObjects - Weapon\Scripts\Items\CrateBehaviour.cs" />
@@ -182,6 +186,7 @@
     <Compile Include="Assets\GD\Exercises\2. Using ScriptableObjects - Weapon\Scripts\Weapons\IModifyWeapon.cs" />
     <Compile Include="Assets\GD\Common\Scripts\UI\UIRichTextMultiPrompt.cs" />
     <Compile Include="Assets\GD\Examples\9. Events - Items &amp; CharacterController\Scripts\UI\ReticuleController.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\Item\Visuals\GetSpriteImage.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Items\Interfaces\IEquippable.cs" />
     <Compile Include="Assets\GD\Common\Scripts\ScriptableObjects\Collections\Base\SO_List.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Controllers\Character\CharacterNavigationController.cs" />

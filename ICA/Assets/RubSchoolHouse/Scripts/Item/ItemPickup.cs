@@ -1,6 +1,6 @@
 using GD.Items;
 
-namespace RUB.Events {
+namespace RUB {
     public class ItemPickup {
         public ItemData item;
         public int count;

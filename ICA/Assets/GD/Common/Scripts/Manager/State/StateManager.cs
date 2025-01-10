@@ -1,7 +1,7 @@
+using GD.Events;
 using GD.Items;
 using GD.Tick;
 using Sirenix.OdinInspector;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace GD.State
@@ -35,23 +35,16 @@ namespace GD.State
         /// <summary>
         /// The condition that determines if the player wins.
         /// </summary>
-        [FoldoutGroup("Conditions")]
+        [FoldoutGroup("Condition")]
         [SerializeField]
-        [Tooltip("The condition that determines if the player wins")]
-        private ConditionBase winCondition;
+        [Tooltip("The condition that must be met")]
+        private ConditionBase condition;
 
-        /// <summary>
-        /// The condition that determines if the player loses.
-        /// </summary>
-        [FoldoutGroup("Conditions")]
+        [FoldoutGroup("Events")]
         [SerializeField]
-        [Tooltip("The condition that determines if the player loses")]
-        private ConditionBase loseCondition;
+        [Tooltip("Event that will be run when the condition is met")]
+        private GameEvent conditionMetGameEvent;
 
-        [FoldoutGroup("Achievements [optional]")]
-        [SerializeField]
-        [Tooltip("Set of optional conditions related to acheivements")]
-        private List<ConditionBase> achievementConditions;
 
         /// <summary>
         /// Indicates whether the game has ended.
@@ -127,37 +120,9 @@ namespace GD.State
         /// <summary>
         /// Handles the logic when the player wins.
         /// </summary>
-        protected virtual void HandleWin()
+        protected virtual void ConditionMet()
         {
-            Debug.Log($"Player Wins! Win condition met at {winCondition.TimeMet} seconds.");
-
-            // Implement win logic here, such as:
-            // - Displaying a victory screen
-            // - Transitioning to the next level
-            // - Awarding points or achievements
-            // - Playing a victory sound or animation
-
-            // Example:
-            // UIManager.Instance.ShowVictoryScreen();
-            // SceneManager.LoadScene("NextLevel");
-        }
-
-        /// <summary>
-        /// Handles the logic when the player loses.
-        /// </summary>
-        protected virtual void HandleLoss()
-        {
-            Debug.Log($"Player Loses! Lose condition met at {loseCondition.TimeMet} seconds.");
-
-            // Implement loss logic here, such as:
-            // - Displaying a game over screen
-            // - Offering a restart option
-            // - Reducing player lives
-            // - Playing a defeat sound or animation
-
-            // Example:
-            // UIManager.Instance.ShowGameOverScreen();
-            // GameManager.Instance.RestartLevel();
+            conditionMetGameEvent?.Raise();
         }
 
         /// <summary>
@@ -169,23 +134,11 @@ namespace GD.State
             // Reset the gameEnded flag
             gameEnded = false;
 
-            // Reset the win condition
-            if (winCondition != null)
-                winCondition.ResetCondition();
+            // Reset the condition
+            if (condition != null)
+                condition.ResetCondition();
 
-            // Reset the lose condition
-            if (loseCondition != null)
-                loseCondition.ResetCondition();
 
-            // Reset the achievement conditions
-            if (achievementConditions != null)
-            {
-                foreach (var achievmentCondition in achievementConditions)
-                {
-                    if (achievmentCondition != null)
-                        achievmentCondition.ResetCondition();
-                }
-            }
         }
 
         /// <summary>
@@ -199,31 +152,9 @@ namespace GD.State
                 return;
 
             // Evaluate the win condition
-            if (winCondition != null && winCondition.Evaluate(conditionContext))
+            if (condition != null && condition.Evaluate(conditionContext))
             {
-                HandleWin();
-                // Set gameEnded to true to prevent further updates
-                gameEnded = true;
-                // Optionally, disable this component
-                // enabled = false;
-            }
-            // Evaluate the lose condition only if the win condition is not met
-            else if (loseCondition != null && loseCondition.Evaluate(conditionContext))
-            {
-                HandleLoss();
-                // Set gameEnded to true to prevent further updates
-                gameEnded = true;
-                // Optionally, disable this component
-                // enabled = false;
-            }
-
-            // Evaluate the achievement conditions
-            foreach (var achievmentCondition in achievementConditions)
-            {
-                if (achievmentCondition != null && achievmentCondition.Evaluate(conditionContext))
-                {
-                    //do something here
-                }
+                ConditionMet();
             }
         }
     }

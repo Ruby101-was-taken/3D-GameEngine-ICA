@@ -15,15 +15,6 @@ namespace GD.Items
     {
         #region Fields
 
-        [FoldoutGroup("Type & Category", expanded: true)]
-        [SerializeField, EnumPaging]
-        [Tooltip("The category of item")]
-        private ItemCategoryType itemCategory = ItemCategoryType.Consumable;
-
-        [FoldoutGroup("Type & Category")]
-        [SerializeField, EnumPaging]
-        [Tooltip("The type of item")]
-        private ItemType itemType = ItemType.Resource;
 
         [FoldoutGroup("UI & Sound", expanded: true)]
         [SerializeField]
@@ -45,8 +36,6 @@ namespace GD.Items
 
         #region Properties
 
-        public ItemCategoryType ItemCategory { get => itemCategory; set => itemCategory = value; }
-        public ItemType ItemType { get => itemType; set => itemType = value; }
 
         public Sprite UiIcon { get => uiIcon; set => uiIcon = value; }
         public AudioClip AudioClip { get => audioClip; set => audioClip = value; }
