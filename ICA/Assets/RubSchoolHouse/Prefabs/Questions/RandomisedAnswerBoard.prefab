@@ -97,6 +97,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerPickup (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5207637876660349665, guid: 2c06a6c74e2525e4a9ec8fee83f2c841,
+        type: 3}
+      propertyPath: itemInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 03ae9e879638faa42becbb0b3e0413dc,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -183,6 +189,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerPickup
       objectReference: {fileID: 0}
+    - target: {fileID: 5207637876660349665, guid: 2c06a6c74e2525e4a9ec8fee83f2c841,
+        type: 3}
+      propertyPath: itemInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 03ae9e879638faa42becbb0b3e0413dc,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -269,6 +281,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerPickup (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5207637876660349665, guid: 2c06a6c74e2525e4a9ec8fee83f2c841,
+        type: 3}
+      propertyPath: itemInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 03ae9e879638faa42becbb0b3e0413dc,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -359,7 +377,7 @@ PrefabInstance:
         type: 3}
       propertyPath: question
       value: 
-      objectReference: {fileID: 11400000, guid: 3dba26b069fed134dad8a0b885b3d9d7,
+      objectReference: {fileID: 11400000, guid: 2613dcd58410fbd479cc5ccbb65d6be2,
         type: 2}
     - target: {fileID: 4055931785346707336, guid: d5460a8c2481085479419566cdddf842,
         type: 3}
@@ -408,6 +426,8 @@ MonoBehaviour:
   - {fileID: 2484703989049556959}
   - {fileID: 2773019832955742463}
   - {fileID: 9211726272998527291}
+  defaultQuestionData: {fileID: 11400000, guid: 2613dcd58410fbd479cc5ccbb65d6be2,
+    type: 2}
 --- !u!114 &7494127682639871110 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2144253262383605882, guid: d5460a8c2481085479419566cdddf842,

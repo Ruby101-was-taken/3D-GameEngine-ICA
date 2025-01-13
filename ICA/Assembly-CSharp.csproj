@@ -139,6 +139,7 @@
     <Compile Include="Assets\RubSchoolHouse\Scripts\StateManager\Conditions\AreaQuestionsAnswered.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\Toast\Animators\TweenScaleToastAnimator.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Time\Tick\TimeTickSystem.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\AnswerBoard\AnswerAreaTrigger.cs" />
     <Compile Include="Assets\GD\Common\Scripts\ScriptableObjects\Types\Variables\StringVariable.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Tweens\UI\UIScaleTween.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Managers\MusicManager.cs" />

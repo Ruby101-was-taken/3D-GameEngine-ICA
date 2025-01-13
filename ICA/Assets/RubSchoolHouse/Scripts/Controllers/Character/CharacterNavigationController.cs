@@ -1,5 +1,7 @@
-﻿using GD.Selection;
+﻿using GD.Audio;
+using GD.Selection;
 using GD.Types;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
@@ -38,6 +40,13 @@ namespace GD.Controllers
 
         private bool moveToCursor = false;
 
+        [SerializeField, FoldoutGroup("Audio")]
+        private AudioClip win;
+        [SerializeField, FoldoutGroup("Audio")]
+        private AudioClip throwItem;
+        [SerializeField, FoldoutGroup("Audio")]
+        private AudioClip pickup;
+
         private void Start()
         {
             navMeshAgent = GetComponent<NavMeshAgent>();
@@ -48,9 +57,19 @@ namespace GD.Controllers
             moveToCursor = false;
         }
 
+        public void PickUpItem() {
+            AudioManager.Instance.PlaySound(pickup, AudioMixerGroupName.Voiceover);
+        }
+
         public void CharacterWin() {
             animator.SetTrigger("dance");
+            AudioManager.Instance.PlaySound(win, AudioMixerGroupName.Voiceover);
         }
+        public void Throw(InputAction.CallbackContext context) {
+            if(context.started) animator.SetTrigger("Throw");
+            AudioManager.Instance.PlaySound(throwItem, AudioMixerGroupName.Voiceover);
+        }
+
 
         /// <summary>
         /// Called when a player selects the on-screen player avatar

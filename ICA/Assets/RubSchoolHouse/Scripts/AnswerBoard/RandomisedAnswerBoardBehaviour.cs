@@ -13,7 +13,10 @@ namespace RUB {
         [SerializeField]
         private List<ItemBehaviour> items;
 
-        void Awake() {
+        [SerializeField]
+        private QuestionData defaultQuestionData;
+
+        public void Randomise() {
             if(possibleQuestions.Count > 0) {
                 int randomQuestionIndex = Random.Range(0, possibleQuestions.Count - 1);
                 AnswerBoardBehaviour.Question = possibleQuestions[randomQuestionIndex];
@@ -35,6 +38,8 @@ namespace RUB {
                 }
             }
         }
-
+        public void ResetBoard() {
+            AnswerBoardBehaviour.Question = defaultQuestionData;
+        }
     }
 }

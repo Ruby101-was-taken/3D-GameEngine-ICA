@@ -23,7 +23,7 @@ namespace RUB {
         private TextMeshPro text;
 
         public bool Answered { get => answered; set => answered = value; }
-        public QuestionData Question { get => question; set => question = value; }
+        public QuestionData Question { get => question; set { question = value; text.text = question.question; } }
 
         private void Start() {
             text.text = Question.question;

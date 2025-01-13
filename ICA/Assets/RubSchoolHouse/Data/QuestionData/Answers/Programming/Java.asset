@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Java
   description: 
-  uiIcon: {fileID: 21300000, guid: cd8a706499a05a049bc06f8fc1f4b6ae, type: 3}
+  uiIcon: {fileID: 21300000, guid: a85420d6bd948284bbb993996d6e0ffe, type: 3}
   audioClip: {fileID: 0}
   audioPosition: {x: 0, y: 0, z: 0}

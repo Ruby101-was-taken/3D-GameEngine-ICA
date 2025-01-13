@@ -27,7 +27,7 @@ namespace RUB {
         }
 
         public void AddItem(ItemPickup item) {
-            inventory.AddItem(item.item, item.count);
+            inventory.AddItem(item.item);
         }
 
         public void Clear() {
