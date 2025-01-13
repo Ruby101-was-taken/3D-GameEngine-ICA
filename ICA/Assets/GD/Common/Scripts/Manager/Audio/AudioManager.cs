@@ -46,9 +46,6 @@ namespace GD.Audio
         [SerializeField]
         private AudioMixerGroup voiceoverGroup;
 
-        [SerializeField]
-        private AudioMixerGroup weaponGroup;
-
         private ObjectPool<AudioSource> audioSourcePool;
 
         protected override void Awake()
@@ -76,7 +73,6 @@ namespace GD.Audio
                 AudioMixerGroupName.Background => backgroundGroup,
                 AudioMixerGroupName.SFX => sfxGroup,
                 AudioMixerGroupName.UI => uiGroup,
-                AudioMixerGroupName.Weapon => weaponGroup,
                 AudioMixerGroupName.Voiceover => voiceoverGroup,
                 _ => null,
             };

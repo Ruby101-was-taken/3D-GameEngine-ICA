@@ -7,6 +7,6 @@ namespace GD.Events
     /// Used to create a listener that can listen for ItemGameEvent events and respond to them.
     /// </summary>
     /// <see cref="ItemGameEvent"/>
-    public class ItemGameEventListener : BaseGameEventListener<ItemData>
+    public class ItemGameEventListener : BaseGameEventListener<AnswerData>
     { }
 }

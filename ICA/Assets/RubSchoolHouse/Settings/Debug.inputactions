@@ -1,0 +1,54 @@
+{
+    "name": "Debug",
+    "maps": [
+        {
+            "name": "Debug",
+            "id": "4e3271ce-9f9f-4208-97f8-eddd273e8199",
+            "actions": [
+                {
+                    "name": "EnableCameraTriggerVisuals",
+                    "type": "Button",
+                    "id": "388849be-38ec-4cde-a89e-8d8d4996bf56",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DisableCameraTriggerVisuals",
+                    "type": "Button",
+                    "id": "13466df8-965d-4dd5-8cc6-52fae51038c8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65a0763d-b684-499e-af01-1a60c448fcd4",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EnableCameraTriggerVisuals",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6894a1b0-2e98-4036-9a47-d518206b0752",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DisableCameraTriggerVisuals",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

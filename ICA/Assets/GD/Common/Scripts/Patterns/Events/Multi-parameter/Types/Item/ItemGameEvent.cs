@@ -10,6 +10,6 @@ namespace GD.Events
     [CreateAssetMenu(fileName = "ItemGameEvent",
         menuName = "GD/Events/Params/Item",
         order = 4)]
-    public class ItemGameEvent : BaseGameEvent<ItemData>
+    public class ItemGameEvent : BaseGameEvent<AnswerData>
     { }
 }

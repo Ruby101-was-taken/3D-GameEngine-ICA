@@ -1,4 +1,7 @@
-﻿using GD.Items;
+﻿using System.Collections.Generic;
+using GD.Items;
+using RUB;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace GD.State
@@ -8,51 +11,16 @@ namespace GD.State
     /// </summary>
     public class ConditionContext
     {
-        // Used by the conditions to get the current state of the player
-        private Player player;
 
-        // Used by the conditions to get the current state of the inventory
-        private InventoryCollection inventoryCollection;
+        [Tooltip("All the questions that must be answered.")]
+        [SerializeField, FoldoutGroup("Specific Context")]
+        private List<AnswerBoardBehaviour> answerBoards;
+        public List<AnswerBoardBehaviour> AnswerBoards { get => answerBoards; set => answerBoards = value; }
 
-        // Used by the conditions to get the current state of the game object
-        private GameObject gameObject;
-
-        public Player Player { get => player; set => player = value; }
-        public InventoryCollection InventoryCollection { get => inventoryCollection; set => inventoryCollection = value; }
-        public GameObject GameObject { get => gameObject; set => gameObject = value; }
-
-        // Add other context dependencies here
-
-        public ConditionContext(Player player, InventoryCollection inventoryCollection, GameObject gameObject)
+        public ConditionContext(List<AnswerBoardBehaviour> answerBoards)
         {
-            Player = player;
-            InventoryCollection = inventoryCollection;
-            GameObject = gameObject;
+            this.AnswerBoards = answerBoards;
         }
 
-        public ConditionContext(Player player, InventoryCollection inventoryCollection)
-            : this(player, inventoryCollection, null)
-        {
-        }
-
-        public ConditionContext(Player player)
-          : this(player, null, null)
-        {
-        }
-
-        public ConditionContext(InventoryCollection inventoryCollection)
-            : this(null, inventoryCollection, null)
-        {
-        }
-
-        public ConditionContext(GameObject gameObject)
-            : this(null, null, gameObject)
-        {
-        }
-
-        public ConditionContext()
-           : this(null, null, null)
-        {
-        }
     }
 }

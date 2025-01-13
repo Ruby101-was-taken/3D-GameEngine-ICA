@@ -20,8 +20,44 @@
                     "id": "fb425ce8-77e3-4c71-a13e-32e41dc0b491",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": "Tap,SlowTap",
+                    "interactions": "Hold",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Dance",
+                    "type": "Button",
+                    "id": "5e683f57-7bd6-4e3b-a9d8-ee84f8cc2320",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Slot1",
+                    "type": "Button",
+                    "id": "2fc79ae7-b568-428c-8a9e-e1049dad4614",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Slot2",
+                    "type": "Button",
+                    "id": "5b625790-01ca-4494-939b-ce29797ec263",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Slot3",
+                    "type": "Button",
+                    "id": "4809f55c-50cf-4c18-a799-740552219e79",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -33,6 +69,50 @@
                     "processors": "",
                     "groups": "",
                     "action": "SelectWaypoint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "55c0e6e5-1b93-4677-b6d5-76867099e0b4",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dance",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d12e076-1121-4846-8e6f-4df83f002f2c",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slot1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d964a5e1-ca9b-42eb-9968-01d63626a56e",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slot2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e1f97c3-2bbe-42f6-ad9f-eef5e601ca9d",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slot3",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

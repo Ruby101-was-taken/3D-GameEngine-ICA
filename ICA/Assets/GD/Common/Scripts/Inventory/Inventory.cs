@@ -11,17 +11,17 @@ namespace GD.Items
     /// Stores the amount of each object of type ItemData in the inventory.
     /// Think of an inventory like a pocket in a larger bag (or InventoryCollection).
     /// </summary>
-    /// <see cref="ItemData"/>
+    /// <see cref="AnswerData"/>
     /// <see cref="InventoryCollection"/>
     [CreateAssetMenu(fileName = "Inventory",
         menuName = "GD/Inventory/Inventory")]
-    public class Inventory : SerializedScriptableObject, IEnumerable<KeyValuePair<ItemData, int>>
+    public class Inventory : SerializedScriptableObject, IEnumerable<KeyValuePair<AnswerData, int>>
     {
         #region Fields
 
         [SerializeField]
         [Tooltip("The items in the inventory and their counts.")]
-        private Dictionary<ItemData, int> contents = new Dictionary<ItemData, int>();
+        private Dictionary<AnswerData, int> contents = new Dictionary<AnswerData, int>();
 
         [FoldoutGroup("Events")]
         [SerializeField]
@@ -37,7 +37,7 @@ namespace GD.Items
 
         #region Properties
 
-        public int this[ItemData itemData]
+        public int this[AnswerData itemData]
         {
             get
             {
@@ -52,7 +52,7 @@ namespace GD.Items
         /// </summary>
         /// <param name="item"></param>
         /// <param name="count"></param>
-        public void Add(ItemData item, int count)
+        public void Add(AnswerData item, int count)
         {
             if (contents.ContainsKey(item))
                 contents[item] += count;
@@ -68,7 +68,7 @@ namespace GD.Items
         /// <param name="item"></param>
         /// <param name="count"></param>
         /// <returns></returns>
-        public int Remove(ItemData item, int count)
+        public int Remove(AnswerData item, int count)
         {
             int remaining = 0;
 
@@ -93,7 +93,7 @@ namespace GD.Items
         /// </summary>
         /// <param name="item"></param>
         /// <returns></returns>
-        public int Count(ItemData item)
+        public int Count(AnswerData item)
         {
             if (contents.ContainsKey(item))
                 return contents[item];
@@ -105,7 +105,7 @@ namespace GD.Items
         /// </summary>
         /// <param name="item"></param>
         /// <returns></returns>
-        public bool Contains(ItemData item)
+        public bool Contains(AnswerData item)
         {
             return contents.ContainsKey(item);
         }
@@ -130,7 +130,7 @@ namespace GD.Items
 
         #region Methods - IEnumerable Implementation
 
-        public IEnumerator<KeyValuePair<ItemData, int>> GetEnumerator()
+        public IEnumerator<KeyValuePair<AnswerData, int>> GetEnumerator()
         {
             return contents.GetEnumerator();
         }

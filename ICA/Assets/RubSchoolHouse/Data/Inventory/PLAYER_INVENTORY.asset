@@ -23,11 +23,11 @@ MonoBehaviour:
     SerializationNodes:
     - Name: items
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[GD.Items.ItemData, Assembly-CSharp],[System.Int32,
+      Data: 0|System.Collections.Generic.Dictionary`2[[GD.Items.AnswerData, Assembly-CSharp],[System.Int32,
         mscorlib]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[GD.Items.ItemData,
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[GD.Items.AnswerData,
         Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 8
@@ -41,3 +41,11 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  capacity: 3
+  ItemPrefab: {fileID: 5207637876660349665, guid: 2c06a6c74e2525e4a9ec8fee83f2c841,
+    type: 3}
+  itemRemovedEvent: {fileID: 11400000, guid: 6a635b5a18f321c4aabc0b5eff4be5d5, type: 2}
+  inventoryFullEvent: {fileID: 11400000, guid: 60bb33ddeba41804386864263ca4ec8f, type: 2}
+  inventoryNoLongerFullEvent: {fileID: 11400000, guid: d99b92f209f92594b81f6df1f66f20ad,
+    type: 2}
+  slotsFilled: 1

@@ -8,7 +8,7 @@ namespace GD.Items
     /// Manages the players inventory, listens for events, etc.
     /// </summary>
     /// <see cref="Inventory"/>
-    /// <see cref="ItemData"/>
+    /// <see cref="AnswerData"/>
     public class InventoryManager : MonoBehaviour
     {
         [SerializeField]
@@ -28,7 +28,7 @@ namespace GD.Items
         /// Adds the item to the inventory.
         /// </summary>
         /// <param name="data"></param>
-        public void OnInventoryAdd(ItemData data)
+        public void OnInventoryAdd(AnswerData data)
         {
             Debug.Log("Test");
             inventoryCollection.Add(data);

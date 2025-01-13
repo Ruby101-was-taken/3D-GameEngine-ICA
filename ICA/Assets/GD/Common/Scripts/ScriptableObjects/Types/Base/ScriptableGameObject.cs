@@ -7,7 +7,7 @@ namespace GD.Types
     /// Base class for all scriptable objects in the game.
     /// Adds name, description, and reset functionality.
     /// </summary>
-    /// <see cref="GD.Items.ItemData"/>
+    /// <see cref="GD.Items.AnswerData"/>
     public class ScriptableGameObject : ScriptableObject
     {
         #region Fields

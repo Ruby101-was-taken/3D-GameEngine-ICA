@@ -28,13 +28,6 @@ namespace GD.State
         [TabGroup("Strategy & Priority")]
         private PriorityLevel priorityLevel = PriorityLevel.Lowest; // Default to lowest priority
 
-        /// <summary>
-        /// UnityEvent invoked when the condition becomes met.
-        /// </summary>
-        [SerializeField]
-        [Tooltip("GameEvent invoked when the condition is met.")]
-        [TabGroup("Events")]
-        protected GameEvent OnConditionMet;
 
         /// <summary>
         /// Indicates whether the condition has been met.
@@ -103,7 +96,6 @@ namespace GD.State
                 {
                     IsMet = true;
                     TimeMet = Time.timeSinceLevelLoad;
-                    OnConditionMet?.Raise();
                 }
             }
             // If the condition is not met, reset the state
@@ -131,7 +123,6 @@ namespace GD.State
             {
                 IsMet = true;
                 TimeMet = Time.timeSinceLevelLoad;
-                OnConditionMet?.Raise();
             }
             return result;
         }

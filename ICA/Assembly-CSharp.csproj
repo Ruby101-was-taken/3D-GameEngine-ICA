@@ -68,7 +68,6 @@
     <Compile Include="Assets\GD\Common\Scripts\ScriptableObjects\Types\Variables\GameObjectVariable.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\Pool\ObjectPool.cs" />
     <Compile Include="Assets\GD\Common\Scripts\ScriptableObjects\Collections\List\SO_FloatList.cs" />
-    <Compile Include="Assets\GD\Common\Scripts\Manager\State\Conditions\Examples\ProbabilityCondition.cs" />
     <Compile Include="Assets\GD\Exercises\2. Using ScriptableObjects - Weapon\Scripts\Items\IInstantiatePrefab.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Inventory\InventoryCollection.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Items\Behaviour\Item.cs" />
@@ -84,19 +83,20 @@
     <Compile Include="Assets\GD\Common\Scripts\Gizmos\ArrowGizmo.cs" />
     <Compile Include="Assets\GD\Exercises\3. StateManager - Conditions\Scripts\Player.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\Singleton\Singleton.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\Debug\DebugEvents.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Tweens\ScriptableObject\TweenSettings.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Attributes\AudioClipButtonAttribute.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Item\ItemBehaviour.cs" />
+    <Compile Include="Assets\GD\Common\Scripts\Items\Data\AnswerData.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Inventory\Manager\InventoryManager.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\Task\ITask.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Controllers\Light\LightFlicker.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\FSM\Base\FSMAction.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Item\Visuals\BillBoard.cs" />
-    <Compile Include="Assets\GD\Exercises\3. StateManager - Conditions\Scripts\InventoryEquippableCondition.cs" />
     <Compile Include="Assets\GD\Examples\8. Events - Zero and Nonzero\Scripts\Events\HealthChangeSender.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Items\Interfaces\IConsumable.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\AnswerBoard\RandomisedAnswerBoardBehaviour.cs" />
     <Compile Include="Assets\GD\Common\Scripts\ScriptableObjects\Collections\Base\SO_Queue.cs" />
-    <Compile Include="Assets\GD\Exercises\3. StateManager - Conditions\Scripts\PlayerRankCondition.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Extensions\LayerMaskExtensions.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Enums\Enums.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Events\Transform\TransformGameEventListener.cs" />
@@ -112,6 +112,7 @@
     <Compile Include="Assets\GD\Examples\2. Scriptable Objects\Scripts\RotationBehaviour.cs" />
     <Compile Include="Assets\GD\Examples\4. Selection Manager - Advanced\Scripts\TankTurretController.cs" />
     <Compile Include="Assets\GD\Examples\2. Scriptable Objects\Scripts\FloatParameter.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\StateManager\Managers\AreaQuestionsCompletedManager.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Tweens\GameObject\TweenRotation.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Tweens\GameObject\TweenScale.cs" />
     <Compile Include="Assets\GD\Exercises\2. Using ScriptableObjects - Weapon\Scripts\Weapons\WeaponData.cs" />
@@ -121,29 +122,26 @@
     <Compile Include="Assets\GD\Common\Scripts\Patterns\FSM\Base\FSMTransition.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\GD\Common\Scripts\ScriptableObjects\Collections\List\SO_BoolList.cs" />
-    <Compile Include="Assets\GD\Exercises\3. StateManager - Conditions\Scripts\TeamGemCondition.cs" />
     <Compile Include="Assets\GD\Examples\8. Events - Zero and Nonzero\Scripts\Events\HealthChangeListener.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\FSM\Base\PredicateBase.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\FSM\Base\FSMState.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Events\ItemPickup\ItemPickupGameEvent.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Tweens\UI\UIFadeTween.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\Events\Multi-parameter\Types\Int\IntGameEventListener.cs" />
-    <Compile Include="Assets\GD\Common\Scripts\Manager\State\Conditions\Examples\LayerCondition.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\Toast\Animators\ToastAnimator.cs" />
-    <Compile Include="Assets\GD\Common\Scripts\Manager\State\Conditions\Examples\AreaCondition.cs" />
     <Compile Include="Assets\ThirdParty\Assets\Textures\UI\UI pack\Scripts\FillValueNumber.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Controllers\Camera\SimpleCameraController.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Patterns\Events\Multi-parameter\Types\String\StringGameEvent.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\Task\ScheduledTask.cs" />
     <Compile Include="Assets\GD\Exercises\1. Using ScriptableObjects\Scripts\SharedSineDisplaceBehaviour.cs" />
     <Compile Include="Assets\GD\Examples\3. Selection Manager - Simple\Scripts\SimpleSelectionManager.cs" />
-    <Compile Include="Assets\GD\Common\Scripts\Manager\State\Conditions\Examples\TagCondition.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\Audio\AudioManager.cs" />
-    <Compile Include="Assets\GD\Common\Scripts\Manager\State\Conditions\Examples\DistanceCondition.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\StateManager\Conditions\AreaQuestionsAnswered.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\Toast\Animators\TweenScaleToastAnimator.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Time\Tick\TimeTickSystem.cs" />
     <Compile Include="Assets\GD\Common\Scripts\ScriptableObjects\Types\Variables\StringVariable.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Tweens\UI\UIScaleTween.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\Managers\MusicManager.cs" />
     <Compile Include="Assets\GD\Examples\9. Events - Items &amp; CharacterController\Scripts\Audio\SimpleAudioManager.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Selection\Responses\Monobehaviours\SelectionResponse.cs" />
     <Compile Include="Assets\GD\Common\Scripts\ScriptableObjects\Types\Variables\FloatVariable.cs" />
@@ -156,6 +154,7 @@
     <Compile Include="Assets\RubSchoolHouse\Scripts\Inventory\ScriptableObject\Inventory.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Tweens\UI\UIBaseTween.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\Inventory\ScriptableObject\QuestionData.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\State\Conditions\Base\ConditionBase.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Events\Vector3\Vector3GameEventListener.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Item\Enum\QuestionCategories.cs" />
@@ -171,10 +170,8 @@
     <Compile Include="Assets\GD\Examples\8. Events - Zero and Nonzero\Scripts\Behaviours\MaterialChangeBehaviour.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Selection\Responses\Monobehaviours\HighlightSelectionResponse.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Items\Interfaces\IInteractable.cs" />
-    <Compile Include="Assets\GD\Common\Scripts\Items\Data\ItemData.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\UI\Inventory\UIInventoryManager.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Manager\Toast\Toast.cs" />
-    <Compile Include="Assets\GD\Exercises\3. StateManager - Conditions\Scripts\PlayerHealthCondition.cs" />
     <Compile Include="Assets\GD\Exercises\2. Using ScriptableObjects - Weapon\Scripts\Weapons\WeaponRangeModify.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Selection\Providers\MouseScreenRayProvider.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Events\ItemPickup\ItemPickupGameEventListener.cs" />
@@ -185,6 +182,7 @@
     <Compile Include="Assets\GD\Common\Scripts\Manager\Toast\Animators\TweenFadeToastAnimator.cs" />
     <Compile Include="Assets\GD\Exercises\2. Using ScriptableObjects - Weapon\Scripts\Weapons\IModifyWeapon.cs" />
     <Compile Include="Assets\GD\Common\Scripts\UI\UIRichTextMultiPrompt.cs" />
+    <Compile Include="Assets\RubSchoolHouse\Scripts\AnswerBoard\AnswerBoardBehaviour.cs" />
     <Compile Include="Assets\GD\Examples\9. Events - Items &amp; CharacterController\Scripts\UI\ReticuleController.cs" />
     <Compile Include="Assets\RubSchoolHouse\Scripts\Item\Visuals\GetSpriteImage.cs" />
     <Compile Include="Assets\GD\Common\Scripts\Items\Interfaces\IEquippable.cs" />
@@ -1270,12 +1268,12 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
@@ -1338,6 +1336,14 @@
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1348,6 +1354,10 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
@@ -1416,6 +1426,10 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">

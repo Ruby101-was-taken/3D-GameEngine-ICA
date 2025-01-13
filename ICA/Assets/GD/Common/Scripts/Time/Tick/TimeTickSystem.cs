@@ -41,8 +41,7 @@ namespace GD.Tick
         #region Unity Lifecycle
 
         // Awake is called when the script instance is being loaded.
-        private void Awake()
-        {
+        private void Awake() {
             if (baseTickIntervalSecs <= 0)
                 throw new Exception("Tick System Base Tick Interval must be > 0!");
 
@@ -54,6 +53,7 @@ namespace GD.Tick
                 { TickRateMultiplierType.QuarterBaseInterval, new UnityEvent() },
                 { TickRateMultiplierType.EightBaseInterval, new UnityEvent() }
             };
+
         }
 
         // FixedUpdate is called on a fixed time interval, typically used for physics updates.

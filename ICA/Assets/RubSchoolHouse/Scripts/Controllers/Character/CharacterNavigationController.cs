@@ -19,9 +19,6 @@ namespace GD.Controllers
         [Tooltip("Set the game object used to indicate that the character using this controller is currently selected.")]
         private GameObject selectionPrefab;
 
-        [SerializeField]
-        [Tooltip("Set the game object used to indicate a waypoint for the character using this controller for navigation.")]
-        private GameObject waypointPrefab;
 
         [SerializeField]
         [Tooltip("Used by the waypoint when the character is moving. Can be simple empty object.")]
@@ -39,6 +36,8 @@ namespace GD.Controllers
         private RaycastHit hitInfo;
         private bool isSelected;
 
+        private bool moveToCursor = false;
+
         private void Start()
         {
             navMeshAgent = GetComponent<NavMeshAgent>();
@@ -46,6 +45,11 @@ namespace GD.Controllers
             selector = GetComponent<ISelector>();
             animator = GetComponent<Animator>();
             SetSelected(true); //alwyas sets the player to be the selected one
+            moveToCursor = false;
+        }
+
+        public void CharacterWin() {
+            animator.SetTrigger("dance");
         }
 
         /// <summary>
@@ -64,7 +68,7 @@ namespace GD.Controllers
         public void OnSelectWaypoint(InputAction.CallbackContext context)
         {
             //if a player is selected then determine destination
-            if (isSelected)
+            if(context.started)
                 ClickDestination();
         }
 
@@ -112,9 +116,6 @@ namespace GD.Controllers
         /// </summary>
         private void SetWaypoint()
         {
-            waypointPrefab.SetActive(true);
-            waypointPrefab.transform.SetParent(sceneAnchor.transform);
-            waypointPrefab.transform.position = navMeshAgent.destination;
         }
 
         /// <summary>
@@ -122,8 +123,6 @@ namespace GD.Controllers
         /// </summary>
         private void ClearWaypoint()
         {
-            waypointPrefab.SetActive(false);
-            waypointPrefab.transform.SetParent(transform);
         }
 
         /// <summary>
@@ -148,14 +147,9 @@ namespace GD.Controllers
 
         private void Update()
         {
-            if (Input.GetMouseButtonDown(1) && isSelected)
-            {
-                ClickDestination();
-            }
 
-            if (Vector3.Distance(navMeshAgent.destination, transform.position)
-                <= navMeshAgent.stoppingDistance)
-            {
+            if(Vector3.Distance(navMeshAgent.destination, transform.position)
+                <= navMeshAgent.stoppingDistance) {
                 ClearWaypoint();
                 animator.SetBool("IsWalking", false);
             }

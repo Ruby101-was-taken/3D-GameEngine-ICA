@@ -3,34 +3,24 @@ using GD.Items;
 using GD.Tick;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using static GD.Tick.TimeTickSystem;
 
 namespace GD.State
 {
     /// <summary>
     /// Manages the game state by evaluating win and loss conditions.
     /// </summary>
-    public class StateManager : MonoBehaviour, IHandleTicks
+    public abstract class StateManager : MonoBehaviour, IHandleTicks
     {
         [FoldoutGroup("Timing & Reset", expanded: true)]
         [SerializeField]
         [Tooltip("The tick rate type for the state manager (i.e. multiple of baseTickIntervalSecs)")]
-        private TimeTickSystem.TickRateMultiplierType tickRateType
-    = TimeTickSystem.TickRateMultiplierType.BaseInterval;
+        protected TimeTickSystem.TickRateMultiplierType tickRateType = TimeTickSystem.TickRateMultiplierType.BaseInterval;
 
         [FoldoutGroup("Timing & Reset")]
         [SerializeField]
         [Tooltip("Reset all conditions on start")]
         private bool resetAllConditionsOnStart = true;
-
-        [FoldoutGroup("Context", expanded: true)]
-        [SerializeField]
-        [Tooltip("Player reference to evaluate conditions required by the context")]
-        private Player player;
-
-        [FoldoutGroup("Context")]
-        [SerializeField]
-        [Tooltip("Player inventory collection to evaluate conditions required by the context")]
-        private InventoryCollection inventoryCollection;
 
         /// <summary>
         /// The condition that determines if the player wins.
@@ -47,26 +37,13 @@ namespace GD.State
 
 
         /// <summary>
-        /// Indicates whether the game has ended.
+        /// Indicates whether the condition is met
         /// </summary>
-        private bool gameEnded = false;
+        [SerializeField, ReadOnly, FoldoutGroup("Debug")]
+        private bool conditionMet = false;
 
-        private ConditionContext conditionContext;
+        protected ConditionContext conditionContext;
 
-        private void Awake()
-        {
-            if (player == null)
-                throw new System.Exception("Player reference is required!");
-
-            if (inventoryCollection == null)
-                throw new System.Exception("Inventory collection reference is required!");
-
-            // Wrap the two objects inside the context envelope
-            conditionContext = new ConditionContext(player, inventoryCollection);
-
-            // Register with the tick system
-            TimeTickSystem.Instance.RegisterListener(tickRateType, HandleTick);
-        }
 
         private void OnDestroy()
         {
@@ -78,47 +55,11 @@ namespace GD.State
         {
             if (resetAllConditionsOnStart)
                 ResetConditions();
+            TimeTickSystem.Instance.RegisterListener(tickRateType, HandleTick);
         }
 
         /// <summary>
-        /// Evaluates conditions each frame and handles game state transitions.
-        /// </summary>
-        //private void Update()  //TODO - NMCG : Slow down the update rate to once every 0.1 seconds
-        //{
-        //    //// If the game has already ended, no need to evaluate further
-        //    //if (gameEnded)
-        //    //    return;
-
-        //    //// Evaluate the win condition
-        //    //if (winCondition != null && winCondition.Evaluate(conditionContext))
-        //    //{
-        //    //    HandleWin();
-        //    //    // Set gameEnded to true to prevent further updates
-        //    //    gameEnded = true;
-        //    //    // Optionally, disable this component
-        //    //    // enabled = false;
-        //    //}
-        //    //// Evaluate the lose condition only if the win condition is not met
-        //    //else if (loseCondition != null && loseCondition.Evaluate(conditionContext))
-        //    //{
-        //    //    HandleLoss();
-        //    //    // Set gameEnded to true to prevent further updates
-        //    //    gameEnded = true;
-        //    //    // Optionally, disable this component
-        //    //    // enabled = false;
-        //    //}
-
-        //    //foreach (var achievmentCondition in achievementConditions)
-        //    //{
-        //    //    if (achievmentCondition != null && achievmentCondition.Evaluate(conditionContext))
-        //    //    {
-        //    //        //do something
-        //    //    }
-        //    //}
-        //}
-
-        /// <summary>
-        /// Handles the logic when the player wins.
+        /// Handles the logic when the condition is met.
         /// </summary>
         protected virtual void ConditionMet()
         {
@@ -126,13 +67,13 @@ namespace GD.State
         }
 
         /// <summary>
-        /// Resets the win and loss conditions.
+        /// Resets the condition.
         /// Call this method when restarting the game or level.
         /// </summary>
         public void ResetConditions()
         {
-            // Reset the gameEnded flag
-            gameEnded = false;
+            // Reset the conditionMet flag
+            conditionMet = false;
 
             // Reset the condition
             if (condition != null)
@@ -145,12 +86,10 @@ namespace GD.State
         /// Move code from Update to HandleTick to perform the tasks at a slower rate
         /// </summary>
         /// <see cref="TimeTickSystem"/>
-        public void HandleTick()
-        {
+        public void HandleTick() {
             // If the game has already ended, no need to evaluate further
-            if (gameEnded)
+            if (conditionMet)
                 return;
-
             // Evaluate the win condition
             if (condition != null && condition.Evaluate(conditionContext))
             {

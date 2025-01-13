@@ -2,6 +2,7 @@ using GD.Items;
 using UnityEngine;
 using Sirenix.OdinInspector;
 using RUB.Events;
+using UnityEngine.InputSystem;
 
 namespace RUB {
 
@@ -11,9 +12,9 @@ namespace RUB {
         private Inventory inventory;
 
         [FoldoutGroup("Debug"), SerializeField]
-        private ItemData testItem;
-        [FoldoutGroup("Debug"), SerializeField]
         private bool addTestItem;
+        [FoldoutGroup("Debug"), SerializeField]
+        private AnswerData testItem;
         [FoldoutGroup("Debug"), SerializeField]
         private ItemPickupGameEvent itemPickupGameEvent;
         #endregion VARS
@@ -27,6 +28,15 @@ namespace RUB {
 
         public void AddItem(ItemPickup item) {
             inventory.AddItem(item.item, item.count);
+        }
+
+        public void Clear() {
+            inventory.Clear();
+        }
+
+        public void Drop(InputAction.CallbackContext context) {
+            if(context.started)
+                inventory.Drop();   
         }
     }
 }

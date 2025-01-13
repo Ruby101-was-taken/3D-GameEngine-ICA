@@ -103,7 +103,7 @@
     /// Defines the various high-level categories of items available in a game.
     /// Each category groups similar item types under one classification.
     /// </summary>
-    /// <see cref="GD.Items.ItemData"/>
+    /// <see cref="GD.Items.AnswerData"/>
     /// <see cref="GD.Inventory"/>
     public enum ItemCategoryType : sbyte
     {
@@ -172,7 +172,7 @@
     /// Defines the various specific types of items available in a game.
     /// These types are grouped under the broader categories represented by ItemCategoryType.
     /// </summary>
-    /// <see cref="GD.Items.ItemData"/>
+    /// <see cref="GD.Items.AnswerData"/>
     /// <see cref="GD.Inventory"/>
     public enum ItemType : sbyte
     {

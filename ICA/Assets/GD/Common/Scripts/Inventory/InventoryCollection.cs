@@ -58,7 +58,7 @@ namespace GD.Items
         }
 
         //add a new inventory to the collection
-        public void Add(ItemData itemData)
+        public void Add(AnswerData itemData)
         {
         //    //if I never collected a Consumable
         //    if (!contents.ContainsKey(itemData.ItemCategory))

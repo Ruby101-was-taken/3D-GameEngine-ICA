@@ -65,7 +65,6 @@ namespace GD.State
             if (allMet && timeMet == -1f)
             {
                 timeMet = Time.timeSinceLevelLoad;
-                OnConditionMet?.Raise();
             }
 
             return allMet;
@@ -83,7 +82,6 @@ namespace GD.State
                     if (timeMet == -1f)
                     {
                         timeMet = Time.timeSinceLevelLoad;
-                        OnConditionMet?.Raise();
                     }
                     return true;
                 }
@@ -117,7 +115,6 @@ namespace GD.State
                 if (timeMet == -1f)
                 {
                     timeMet = Time.timeSinceLevelLoad;
-                    OnConditionMet?.Raise();
                 }
                 return true;
             }

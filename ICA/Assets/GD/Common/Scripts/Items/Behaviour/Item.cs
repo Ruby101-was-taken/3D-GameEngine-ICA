@@ -6,13 +6,13 @@ namespace GD.Items
     /// <summary>
     /// Represents an item that can be consumed by a game object on the correct layer
     /// </summary>
-    /// <see cref="ItemData"/>
+    /// <see cref="AnswerData"/>
     /// <see cref="ItemGameEvent"/>
     public class Item : MonoBehaviour, IConsumable
     {
         [SerializeField]
         [Tooltip("The item data that represents this item")]
-        private ItemData itemData;
+        private AnswerData itemData;
 
         [SerializeField]
         [Tooltip("The event that is raised when this item is consumed")]

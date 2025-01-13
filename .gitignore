@@ -2,3 +2,5 @@
 /ICA/Library/PackageCache/
 ICA/Assets/Plugins/Sirenix.meta
 ICA/Temp/
+**/ICA/Library
+/ICA/Library/ArtifactDB

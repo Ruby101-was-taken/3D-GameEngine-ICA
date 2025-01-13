@@ -31,7 +31,7 @@ namespace GD.UI
 
         #region Fields - Internal
 
-        private Dictionary<ItemData, GameObject> itemUIDictionary = new Dictionary<ItemData, GameObject>();
+        private Dictionary<AnswerData, GameObject> itemUIDictionary = new Dictionary<AnswerData, GameObject>();
 
         #endregion Fields - Internal
 
@@ -57,7 +57,7 @@ namespace GD.UI
             }
         }
 
-        private void CreateOrUpdate(ItemData itemData, int count)
+        private void CreateOrUpdate(AnswerData itemData, int count)
         {
             if (!itemUIDictionary.TryGetValue(itemData, out var itemUI))
             {
